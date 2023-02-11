@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MyApp",
-    "slug": "MyApp",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jlesbegu.myapp"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,6 +30,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "492e7417-6c5e-484f-b669-f925f8059ee8"
+      }
+    },
+    "owner": "jlesbegu"
   }
 }
